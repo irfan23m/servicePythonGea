@@ -1,0 +1,24 @@
+language: "en"
+
+pipeline:
+  - name: WhitespaceTokenizer
+    intent_split_symbol: "_"
+  - name: CRFEntityExtractor
+  - name: EntitySynonymMapper
+  - name: CountVectorsFeaturizer
+  - name: RegexFeaturizer
+  - name: EmbeddingIntentClassifier
+  - name: ResponseSelector  
+    retrieval_intent: faq  
+  - name: ResponseSelector  
+    retrieval_intent: chitchat  
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy 
+  - name: FallbackPolicy
+    nlu_threshold: 0.5
+    core_threshold: 0.5
+    fallback_action_name: "actions_tidak_mengerti"  
+  - name: FormPolicy
+  - name: MappingPolicy

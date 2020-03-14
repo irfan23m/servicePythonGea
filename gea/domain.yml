@@ -1,0 +1,159 @@
+actions:
+- actions_harga_emas
+- actions_info_produk
+- actions_tidak_mengerti
+- respond_faq
+- respond_chitchat
+- utter_ask_berat_emasku
+- utter_ask_brand
+- utter_ask_kendaraan
+- utter_ask_tenor_amanah
+- utter_ask_tenor_emasku
+- utter_ask_tipe
+- utter_ask_uang_muka
+- utter_berat_emasku_salah
+- utter_brand_amanah_salah
+- utter_slots_values
+- utter_tenor_amanah_salah
+- utter_tenor_emasku_salah
+- utter_tipe_amanah_salah
+- utter_uang_muka_salah
+entities:
+- angsuran
+- batas
+- berat
+- berat_emasku
+- biaya_admin
+- brand
+- bulan
+- bunga
+- cara
+- dp
+- durasi
+- emas
+- harga
+- kendaraan
+- kredit
+- produk
+- simulasi
+- syarat
+- tanya
+- tenor_amanah
+- tenor_emasku
+- tipe
+- transaksi
+- uang_muka
+- unit
+- untuk
+- thanks
+- gea
+- salam
+- kabar
+- pujian
+- hina
+- aku
+- good
+- bad
+forms:
+- amanah_form
+- emasku_form
+intents:
+- inform
+- simulasi_amanah:
+    use_entities: []
+- simulasi_emasku:
+    use_entities: []
+- harga_emas:
+    use_entities:
+    - berat
+    - unit
+- info_produk:
+    use_entities:
+    - produk
+- faq:
+    use_entities: []
+- chitchat:
+    use_entities: []
+- iya
+- tidak
+responses:
+  utter_ask_berat_emasku:
+  - text: Berapa gram beratnya kaka?
+  utter_ask_brand:
+  - text: "mau {kendaraan_1} merk apa?"
+  utter_ask_kendaraan:
+  - text: mau mobil apa motor kaka?
+  utter_ask_tenor_amanah:
+  - text: Mau tenor berapa bulan?
+  utter_ask_tenor_emasku:
+  - text: "Mau tenor berapa bulan?"
+  utter_ask_tipe:
+  - text: "mau {kendaraan_1} {brand_1} tipe apa?"
+  utter_ask_uang_muka:
+  - text: "Bisanya bayar uang muka berapa?\nHarga kendaraan: Rp {harga} \nMinimal DP: Rp {depe_min}"
+  utter_berat_emasku_salah:
+  - text: Maaf kaka produk emasku sekarang hanya menerima berat 1, 5, 10 dan 25 gram
+  utter_brand_amanah_salah:
+  - text: "Maaf kaka amanah belum menyediakan merk {kendaraan} {brand_salah}. Merk\
+      \ yang tersedia sekarang yaitu:\n {brand_tersedia}"
+  utter_slots_values:
+  - text: "Gea ulangin yah informasi kredit nya:\n - Kendaraan  : {kendaraan}\n -\
+      \ Merk       : {brand}\n - Tipe       : {tipe}\n - DP         : {uang_muka}\n\
+      \ - Tenor      : {tenor}"
+  utter_tenor_amanah_salah:
+  - text: 'Maaf kaka untuk kendaraan {kendaraan}, tenor yang tersedia adalah: {list_tenor}
+      bulan.'
+  utter_tenor_emasku_salah:
+  - text: Maaf kaka produk emasku sekarang hanya menerima tenor 1 s/d 12 bulan
+  utter_tipe_amanah_salah:
+  - text: "Maaf kaka amanah belum menyediakan {kendaraan} tipe {tipe_salah}. Silahkan\
+      \ pilih tipe yang tersedia:\n {tipe_tersedia}"
+  utter_uang_muka_salah:
+  - text: Maaf kaka uang muka nya harus lebih dari Rp {depe_min}. Dan tidak boleh lebih dari harga barang Rp {harga}
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
+slots:
+  berat:
+    initial_value: 0.0
+    max_value: 9999999.99
+    min_value: 0.0
+    type: float
+  berat_emasku:
+    type: text
+  brand:
+    type: text
+  kendaraan:
+    type: categorical
+    values:
+    - mobil
+    - motor
+  produk:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  tenor_amanah:
+    type: text
+  tenor_emasku:
+    type: text
+  tipe:
+    type: text
+  uang_muka:
+    max_value: 999999999.0
+    min_value: 0.0
+    type: float
+  unit:
+    initial_value: gram
+    type: categorical
+    values:
+    - gram
+    - kilogram
+  salam:
+    type: text
+  pujian:
+    type: text
+  hina:
+    type: text  
+  good:
+    type: text
+  

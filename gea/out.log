@@ -1,0 +1,11 @@
+2020-03-04 16:55:16,980 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-04 16:55:23,868 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-03-04 16:58:12,547 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\cb\env\lib\site-packages\sanic\app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\cb\env\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\cb\env\lib\site-packages\sanic\router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /

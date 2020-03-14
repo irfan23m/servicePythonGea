@@ -1,0 +1,2534 @@
+[
+  {
+    "text": "apa prosedur untuk amanah mobil",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya"
+      },
+      {
+        "start": 4,
+        "end": 12,
+        "value": "prosedur",
+        "entity": "cara"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "untuk",
+        "entity": "untuk"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "amanah",
+        "entity": "produk"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "mobil",
+        "entity": "kendaraan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.9546215302961669,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "untuk",
+        "entity": "untuk",
+        "confidence": 0.8635358265233518,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "amanah",
+        "entity": "produk",
+        "confidence": 0.9555468483174686,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.8913702027585307,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "maksimal tenor untuk kredit mobil berapa lama",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "maksimal",
+        "entity": "batas"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "untuk",
+        "entity": "untuk"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "mobil",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "value": "lama",
+        "entity": "durasi"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "untuk",
+        "entity": "untuk",
+        "confidence": 0.9661164419428202,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9978724292467825,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9901480973087682,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9959447284557807,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "value": "lama",
+        "entity": "durasi",
+        "confidence": 0.8467792680337886,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ngangsur kendaraan bisa sampai berapa bulan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "ngangsur",
+        "entity": "kredit"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "sampai",
+        "entity": "batas"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "bulan",
+        "entity": "durasi"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "bisa",
+        "entity": "tanya",
+        "confidence": 0.8196287015213558,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "sampai",
+        "entity": "batas",
+        "confidence": 0.859479274007913,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9904270517813004,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "bawa apa aja buat nyicil mobil",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "bawa",
+        "entity": "syarat"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "apa",
+        "entity": "tanya"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "buat",
+        "entity": "untuk"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "nyicil",
+        "entity": "kredit"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "mobil",
+        "entity": "kendaraan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.9040276491248471,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "buat",
+        "entity": "untuk",
+        "confidence": 0.8978867016517059,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9744637699206522,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9812116829117936,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mau tanya tentang tabungan emas",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "tanya",
+        "entity": "tanya"
+      },
+      {
+        "start": 18,
+        "end": 31,
+        "value": "tabungan emas",
+        "entity": "produk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "tanya",
+        "entity": "tanya",
+        "confidence": 0.8260530767122884,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "apa itu mulia",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya"
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "value": "mulia",
+        "entity": "produk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.9489361208792373,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "di pegadaian ada jual emas gak",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "ada",
+        "entity": "tanya"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "jual",
+        "entity": "transaksi"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "emas",
+        "entity": "produk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "ada",
+        "entity": "tanya",
+        "confidence": 0.45733178025614185,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "emas",
+        "entity": "produk",
+        "confidence": 0.3450255843363222,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "angsuran nyicil honda beat per bulan berapa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "angsuran",
+        "entity": "angsuran"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "value": "nyicil",
+        "entity": "kredit"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "value": "honda",
+        "entity": "brand"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "beat",
+        "entity": "tipe"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "per bulan",
+        "entity": "bulan"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "berapa",
+        "entity": "tanya"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "angsuran",
+        "entity": "angsuran",
+        "confidence": 0.5843806792165692,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.5823335462391902,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "value": "honda",
+        "entity": "brand",
+        "confidence": 0.3683857451352143,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.9366042408006245,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9809111508862414,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kawasaki",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "kawasaki",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "agya",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "agya",
+        "entity": "tipe"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "berapa setoran per bulan emasku untuk 10 gram",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "angsuran",
+        "entity": "angsuran"
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "bulanan",
+        "entity": "bulan"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "emasku",
+        "entity": "produk"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "untuk",
+        "entity": "untuk"
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "value": "10",
+        "entity": "berat"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "value": "gram",
+        "entity": "unit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.992580776570802,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "angsuran",
+        "entity": "angsuran",
+        "confidence": 0.989029371381946,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.9719835608964339,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "emasku",
+        "entity": "produk",
+        "confidence": 0.8709943123731542,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "untuk",
+        "entity": "untuk",
+        "confidence": 0.9249608298917309,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "value": "10",
+        "entity": "berat_emasku",
+        "confidence": 0.8375551049593833,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "value": "gram",
+        "entity": "unit",
+        "confidence": 0.9387921445108903,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "malam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "malam",
+        "entity": "salam"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dasar bodoh",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "bodoh",
+        "entity": "hina"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gw baik aja",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "gw",
+        "entity": "aku"
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "value": "baik",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "gw",
+        "entity": "aku",
+        "confidence": 0.7561308741900058,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kredit mobil gimana caranya",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "mobil",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "gimana",
+        "entity": "tanya"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "value": "caranya",
+        "entity": "cara"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.985725036046738,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9884530579171333,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "bagaimana",
+        "entity": "tanya",
+        "confidence": 0.8470619577503745,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "buat cicil motor perlu apa aja",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "buat",
+        "entity": "untuk"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "value": "cicil",
+        "entity": "kredit"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "motor",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "perlu",
+        "entity": "syarat"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "value": "apa",
+        "entity": "tanya"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "buat",
+        "entity": "untuk",
+        "confidence": 0.9553351078516092,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9786767847779235,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "motor",
+        "entity": "kendaraan",
+        "confidence": 0.9820854320564452,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.871434929063618,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kalau emas 1.5 gram berapa harganya yah",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk"
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "value": "emas",
+        "entity": "emas"
+      },
+      {
+        "start": 11,
+        "end": 14,
+        "value": "1.5",
+        "entity": "berat"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "gram",
+        "entity": "unit"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "harganya",
+        "entity": "harga"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk",
+        "confidence": 0.5995968926083334,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "value": "emas",
+        "entity": "emas",
+        "confidence": 0.43940124355760796,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 11,
+        "end": 14,
+        "value": "1.5",
+        "entity": "berat",
+        "confidence": 0.6576515994836296,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "gram",
+        "entity": "unit",
+        "confidence": 0.9517032286563823,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9893210118983427,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "apa itu kca",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "kca",
+        "entity": "produk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.9489517646922747,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "apa itu rahn bisnis",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya"
+      },
+      {
+        "start": 8,
+        "end": 19,
+        "value": "rahn bisnis",
+        "entity": "produk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.9489191034884832,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "berapa cicilan per bulan buat kredit mobil avanza",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "angsuran",
+        "entity": "angsuran"
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "bulanan",
+        "entity": "bulan"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "value": "buat",
+        "entity": "untuk"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "mobil",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "avanza",
+        "entity": "tipe"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9917593256060873,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "angsuran",
+        "entity": "angsuran",
+        "confidence": 0.43009843615955395,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.9163816844439704,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "value": "buat",
+        "entity": "untuk",
+        "confidence": 0.9641186297758098,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9973644865591388,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9886777856683839,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "avanza",
+        "entity": "brand",
+        "confidence": 0.2844091863995644,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kalau beli emasku 5 gram bayar berapa tiap bulan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk"
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "value": "beli",
+        "entity": "transaksi"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "value": "emasku",
+        "entity": "produk"
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "value": "5",
+        "entity": "berat_emasku"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "gram",
+        "entity": "unit"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "bayar",
+        "entity": "angsuran"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "value": "tiap bulan",
+        "entity": "bulan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk",
+        "confidence": 0.5729222709553453,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "value": "beli",
+        "entity": "transaksi",
+        "confidence": 0.7172565339636688,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "value": "emasku",
+        "entity": "produk",
+        "confidence": 0.9361802999898711,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "value": "5",
+        "entity": "berat_emasku",
+        "confidence": 0.3457538113921669,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "gram",
+        "entity": "unit",
+        "confidence": 0.8714414254358154,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9839547999208977,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.4017446240070467,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "slamat siang",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "siang",
+        "entity": "salam"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "terima kasih",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "terima kasih",
+        "entity": "thanks"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bye",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bye",
+        "entity": "tipe",
+        "confidence": 0.1533088138134663,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "bisa bantuin aku gak",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "bisa",
+        "entity": "tanya",
+        "confidence": 0.8873934398617436,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "gea pintar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "gea",
+        "entity": "gea"
+      },
+      {
+        "start": 4,
+        "end": 10,
+        "value": "pintar",
+        "entity": "pujian"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "gea",
+        "entity": "gea",
+        "confidence": 0.875163844526173,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "aku suka sama kamu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "aku",
+        "entity": "aku"
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "value": "suka",
+        "entity": "good"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "value": "kamu",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "aku",
+        "entity": "aku",
+        "confidence": 0.443464499488514,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "value": "kamu",
+        "entity": "gea",
+        "confidence": 0.8500816135079878,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "aku benci kamu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "aku",
+        "entity": "aku"
+      },
+      {
+        "start": 4,
+        "end": 9,
+        "value": "benci",
+        "entity": "bad"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "kamu",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "aku",
+        "entity": "aku",
+        "confidence": 0.4349466758990306,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "kamu",
+        "entity": "gea",
+        "confidence": 0.8734710396359576,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sampai berapa kali kredit mobil",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "sampai",
+        "entity": "batas"
+      },
+      {
+        "start": 7,
+        "end": 13,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "value": "kali",
+        "entity": "durasi"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "mobil",
+        "entity": "kendaraan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "sampai",
+        "entity": "batas",
+        "confidence": 0.8921652524136217,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 7,
+        "end": 13,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9895103340233737,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "value": "kali",
+        "entity": "untuk",
+        "confidence": 0.13788785591592212,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9896965440082701,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9893797382810037,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "uang muka nyicil motor berapa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "uang muka",
+        "entity": "dp"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "nyicil",
+        "entity": "kredit"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "motor",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "berapa",
+        "entity": "tanya"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "uang",
+        "entity": "dp",
+        "confidence": 0.22463797359911064,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9648245723335347,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "motor",
+        "entity": "kendaraan",
+        "confidence": 0.993746563209011,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9915203978135039,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "buat kredit mobil sewa modal berapa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "buat",
+        "entity": "untuk"
+      },
+      {
+        "start": 5,
+        "end": 11,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "value": "mobil",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "value": "sewa modal",
+        "entity": "bunga"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "berapa",
+        "entity": "tanya"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "buat",
+        "entity": "untuk",
+        "confidence": 0.9633412424475183,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 5,
+        "end": 11,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9971866603724481,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9892239857580163,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "modal",
+        "entity": "kendaraan",
+        "confidence": 0.22734417939504512,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.981602475970755,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mau tanya tentang mulia kolektif",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "tanya",
+        "entity": "tanya"
+      },
+      {
+        "start": 18,
+        "end": 32,
+        "value": "mulia kolektif",
+        "entity": "produk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "tanya",
+        "entity": "tanya",
+        "confidence": 0.8255459222236693,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "mulia",
+        "entity": "produk",
+        "confidence": 0.4233469684717721,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "berapa angsuran bulanan kredit mobil wuling",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "value": "angsuran",
+        "entity": "angsuran"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "value": "bulanan",
+        "entity": "bulan"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "mobil",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "wuling",
+        "entity": "brand"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9921609223382887,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "value": "angsuran",
+        "entity": "angsuran",
+        "confidence": 0.9511230849947492,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.9016324829332238,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9888946562250386,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.9853606693411305,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kalau kredit mobil daihatsu ayla setor berapa perbulan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "mobil",
+        "entity": "kendaraan"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "daihatsu",
+        "entity": "brand"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "ayla",
+        "entity": "tipe"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "setor",
+        "entity": "angsuran"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "value": "perbulan",
+        "entity": "bulan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk",
+        "confidence": 0.9696916804118704,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9972577956006962,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "mobil",
+        "entity": "kendaraan",
+        "confidence": 0.991705896706442,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "daihatsu",
+        "entity": "brand",
+        "confidence": 0.5847652197291308,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "setor",
+        "entity": "angsuran",
+        "confidence": 0.1504607902163322,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9894370913170958,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "value": "bulanan",
+        "entity": "durasi",
+        "confidence": 0.43250979943385026,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "berapa setoran per bulan emasku untuk 10 gram",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "angsuran",
+        "entity": "angsuran"
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "bulanan",
+        "entity": "bulan"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "emasku",
+        "entity": "produk"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "untuk",
+        "entity": "untuk"
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "value": "10",
+        "entity": "berat_emasku"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "value": "gram",
+        "entity": "unit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9921365541609305,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "angsuran",
+        "entity": "angsuran",
+        "confidence": 0.9600742588716095,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.9591735347233895,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "emasku",
+        "entity": "produk",
+        "confidence": 0.8725929640046695,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "untuk",
+        "entity": "untuk",
+        "confidence": 0.9322683179830422,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "value": "10",
+        "entity": "berat",
+        "confidence": 0.8698611650643706,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "value": "gram",
+        "entity": "unit",
+        "confidence": 0.971818935270188,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "selamat pagi gea",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "pagi",
+        "entity": "salam"
+      },
+      {
+        "start": 13,
+        "end": 16,
+        "value": "gea",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "gea",
+        "entity": "gea",
+        "confidence": 0.8605466499440448,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "gimana kabarnya",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "gimana",
+        "entity": "tanya"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "value": "kabarnya",
+        "entity": "kabar"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "bagaimana",
+        "entity": "tanya",
+        "confidence": 0.7965170398222254,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "value": "kabarnya",
+        "entity": "cara",
+        "confidence": 0.18629681244296378,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sampai jumpa",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "sampai",
+        "entity": "batas",
+        "confidence": 0.760910236496949,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kamu nakal yah",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kamu",
+        "entity": "gea"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "value": "nakal",
+        "entity": "pujian"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kamu",
+        "entity": "gea",
+        "confidence": 0.9320939713784675,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kamu goblog",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kamu",
+        "entity": "gea"
+      },
+      {
+        "start": 5,
+        "end": 11,
+        "value": "goblog",
+        "entity": "hina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kamu",
+        "entity": "gea",
+        "confidence": 0.9319743733173906,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "gw senang banget",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "gw",
+        "entity": "aku"
+      },
+      {
+        "start": 3,
+        "end": 9,
+        "value": "senang",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "gw",
+        "entity": "aku",
+        "confidence": 0.367115696538668,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "gw lagi sedih nih",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "gw",
+        "entity": "aku"
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "value": "sedih",
+        "entity": "bad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "gw",
+        "entity": "aku",
+        "confidence": 0.4852018365630821,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "berapa minimal tenor untuk cicil motor",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "minimal",
+        "entity": "batas"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "untuk",
+        "entity": "untuk"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "cicil",
+        "entity": "kredit"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "motor",
+        "entity": "kendaraan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9891984815269693,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "untuk",
+        "entity": "untuk",
+        "confidence": 0.9611482790055866,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9864481256704875,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "motor",
+        "entity": "kendaraan",
+        "confidence": 0.9884648764221239,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "fortuner",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "fortuner",
+        "entity": "tipe"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "vios",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "vios",
+        "entity": "tipe"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "apa kabar gea",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya"
+      },
+      {
+        "start": 4,
+        "end": 9,
+        "value": "kabar",
+        "entity": "kabar"
+      },
+      {
+        "start": 10,
+        "end": 13,
+        "value": "gea",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.9685713983475008,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 10,
+        "end": 13,
+        "value": "gea",
+        "entity": "gea",
+        "confidence": 0.837515146512268,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "bego lu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "bego",
+        "entity": "hina"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "lu",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "lu",
+        "entity": "gea",
+        "confidence": 0.5993958531000456,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "lu orang apa robot sih",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "lu",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "lu",
+        "entity": "gea",
+        "confidence": 0.5317691072358111,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 9,
+        "end": 12,
+        "value": "apa",
+        "entity": "tanya",
+        "confidence": 0.941175471775782,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "aku lagi happy nih",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "aku",
+        "entity": "aku"
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "value": "happy",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "aku",
+        "entity": "aku",
+        "confidence": 0.533263015726837,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kalau kredit amanah bayarnya berapa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "value": "kredit",
+        "entity": "kredit"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "amanah",
+        "entity": "produk"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "value": "bayarnya",
+        "entity": "angsuran"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "berapa",
+        "entity": "tanya"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "kalau",
+        "entity": "untuk",
+        "confidence": 0.9691471371998426,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "value": "kredit",
+        "entity": "kredit",
+        "confidence": 0.9828504890837866,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "amanah",
+        "entity": "produk",
+        "confidence": 0.9582200180277826,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.9802175942283489,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yaris",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "yaris",
+        "entity": "tipe"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "yaris",
+        "entity": "brand",
+        "confidence": 0.21235034041068754,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "setoran produk [emasku] per bulan berapa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "setoran",
+        "entity": "angsuran"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "per bulan",
+        "entity": "bulan"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "berapa",
+        "entity": "tanya"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "angsuran",
+        "entity": "angsuran",
+        "confidence": 0.8247879836064225,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "emasku",
+        "entity": "produk",
+        "confidence": 0.9158485693927855,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "bulanan",
+        "entity": "bulan",
+        "confidence": 0.8703921677600199,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "berapa",
+        "entity": "tanya",
+        "confidence": 0.983888793088778,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "halo gea",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "halo",
+        "entity": "salam"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "gea",
+        "entity": "gea"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "gea",
+        "entity": "gea",
+        "confidence": 0.8280751832633159,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kamu sehat",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kamu",
+        "entity": "gea"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "value": "sehat",
+        "entity": "kabar"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kamu",
+        "entity": "gea",
+        "confidence": 0.9350995782881788,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "thank you",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "thank you",
+        "entity": "thanks"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "daaaa",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "daaaa",
+        "entity": "brand",
+        "confidence": 0.21554261568361543,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "gea jelek",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "gea",
+        "entity": "gea"
+      },
+      {
+        "start": 4,
+        "end": 9,
+        "value": "jelek",
+        "entity": "hina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "gea",
+        "entity": "gea",
+        "confidence": 0.8143868661190051,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

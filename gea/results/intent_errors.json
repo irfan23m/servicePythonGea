@@ -1,0 +1,194 @@
+[
+  {
+    "text": "apa prosedur untuk amanah mobil",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "simulasi_amanah",
+      "confidence": 0.28728312253952026
+    }
+  },
+  {
+    "text": "cicilan toyota rush tiap bulan berapa",
+    "intent": "simulasi_amanah",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.40801215171813965
+    }
+  },
+  {
+    "text": "kawasaki",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "agya",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "malam",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "dasar bodoh",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "berapa cicilan per bulan buat kredit mobil avanza",
+    "intent": "simulasi_amanah",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.6981717944145203
+    }
+  },
+  {
+    "text": "slamat siang",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "ok sip",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "terima kasih",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "bisa bantuin aku gak",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5180864334106445
+    }
+  },
+  {
+    "text": "kalau kredit mobil daihatsu ayla setor berapa perbulan",
+    "intent": "simulasi_amanah",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9743677973747253
+    }
+  },
+  {
+    "text": "gimana kabarnya",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6070270538330078
+    }
+  },
+  {
+    "text": "sampai jumpa",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7324156165122986
+    }
+  },
+  {
+    "text": "suzuki",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "fortuner",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "vios",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "kalau kredit amanah bayarnya berapa",
+    "intent": "simulasi_amanah",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8679723739624023
+    }
+  },
+  {
+    "text": "expander",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "yaris",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "oke",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "daaaa",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  }
+]
