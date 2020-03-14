@@ -9,8 +9,6 @@ pipeline:
   - name: RegexFeaturizer
   - name: EmbeddingIntentClassifier
   - name: ResponseSelector  
-    retrieval_intent: faq  
-  - name: ResponseSelector  
     retrieval_intent: chitchat  
 
 policies:

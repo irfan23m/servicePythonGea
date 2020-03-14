@@ -2,24 +2,33 @@ actions:
 - actions_harga_emas
 - actions_info_produk
 - actions_tidak_mengerti
-- respond_faq
 - respond_chitchat
 - utter_ask_berat_emasku
 - utter_ask_brand
 - utter_ask_kendaraan
 - utter_ask_tenor_amanah
-- utter_ask_tenor_emasku
 - utter_ask_tipe
 - utter_ask_uang_muka
 - utter_berat_emasku_salah
 - utter_brand_amanah_salah
 - utter_slots_values
 - utter_tenor_amanah_salah
-- utter_tenor_emasku_salah
 - utter_tipe_amanah_salah
 - utter_uang_muka_salah
+- utter_cara_amanah
+- utter_tenor_amanah
+- utter_syarat_amanah
+- utter_tempat_amanah
+- utter_dp_amanah
+- utter_bunga_amanah
+- utter_bisa_amanah
+- utter_bisa_emas
+- utter_biaya_admin_amanah
+- utter_ask_help
 entities:
+- aku
 - angsuran
+- bad
 - batas
 - berat
 - berat_emasku
@@ -31,37 +40,34 @@ entities:
 - dp
 - durasi
 - emas
+- gea
+- good
 - harga
+- hina
+- kabar
 - kendaraan
 - kredit
 - produk
+- pujian
+- salam
 - simulasi
 - syarat
 - tanya
 - tenor_amanah
-- tenor_emasku
+- thanks
 - tipe
 - transaksi
 - uang_muka
 - unit
 - untuk
-- thanks
-- gea
-- salam
-- kabar
-- pujian
-- hina
-- aku
-- good
-- bad
 forms:
 - amanah_form
 - emasku_form
 intents:
 - inform
-- simulasi_amanah:
-    use_entities: []
 - simulasi_emasku:
+    use_entities: []
+- simulasi_amanah:
     use_entities: []
 - harga_emas:
     use_entities:
@@ -70,27 +76,35 @@ intents:
 - info_produk:
     use_entities:
     - produk
-- faq:
-    use_entities: []
 - chitchat:
     use_entities: []
 - iya
 - tidak
+- cara_amanah
+- tenor_amanah
+- syarat_amanah
+- tempat_amanah
+- dp_amanah
+- bunga_amanah
+- bisa_amanah
+- bisa_emas
+- biaya_admin_amanah
 responses:
+  utter_ask_help:
+  - text: Ada lagi yang bisa Gea bantu? 
   utter_ask_berat_emasku:
   - text: Berapa gram beratnya kaka?
   utter_ask_brand:
-  - text: "mau {kendaraan_1} merk apa?"
+  - text: mau {kendaraan_1} merk apa?
   utter_ask_kendaraan:
   - text: mau mobil apa motor kaka?
   utter_ask_tenor_amanah:
   - text: Mau tenor berapa bulan?
-  utter_ask_tenor_emasku:
-  - text: "Mau tenor berapa bulan?"
   utter_ask_tipe:
-  - text: "mau {kendaraan_1} {brand_1} tipe apa?"
+  - text: mau {kendaraan_1} {brand_1} tipe apa?
   utter_ask_uang_muka:
-  - text: "Bisanya bayar uang muka berapa?\nHarga kendaraan: Rp {harga} \nMinimal DP: Rp {depe_min}"
+  - text: "Bisanya bayar uang muka berapa?\nHarga kendaraan: Rp {harga} \nMinimal\
+      \ DP: Rp {depe_min}"
   utter_berat_emasku_salah:
   - text: Maaf kaka produk emasku sekarang hanya menerima berat 1, 5, 10 dan 25 gram
   utter_brand_amanah_salah:
@@ -103,13 +117,31 @@ responses:
   utter_tenor_amanah_salah:
   - text: 'Maaf kaka untuk kendaraan {kendaraan}, tenor yang tersedia adalah: {list_tenor}
       bulan.'
-  utter_tenor_emasku_salah:
-  - text: Maaf kaka produk emasku sekarang hanya menerima tenor 1 s/d 12 bulan
   utter_tipe_amanah_salah:
   - text: "Maaf kaka amanah belum menyediakan {kendaraan} tipe {tipe_salah}. Silahkan\
       \ pilih tipe yang tersedia:\n {tipe_tersedia}"
   utter_uang_muka_salah:
-  - text: Maaf kaka uang muka nya harus lebih dari Rp {depe_min}. Dan tidak boleh lebih dari harga barang Rp {harga}
+  - text: Maaf kaka uang muka nya harus lebih dari Rp {depe_min}. Dan tidak boleh
+      lebih dari harga barang Rp {harga}
+  utter_cara_amanah:
+    - text: "Cara pengajuan kredit amanah: <br/>1) Siapkan syarat dan ketentuan yang diperlukan dalam pengajuan pembiayaan Amanah. <br/>2) Lakukan pengajuan pembiayaan AMANAH di outlet atau cabang Pegadaian. <br/>3) Serahkan dokumen persyaratan pengajuan pembiayaan amanah kepada petugas Pegadaian untuk diverifikasi. <br/>4) Tunggu persetujuan dari bagian terkait. <br/>5) Apabila pengajuan pembiayaan amanah anda diterima,  pencairan dana dapat anda terima setelah 3 hari masa kerja"
+  utter_tenor_amanah:
+    - text: "Jangka waktu pembiayaan amanah mulai dari 12 bulan sampai dengan 60 bulan."
+  utter_syarat_amanah:
+    - text: "Syarat pengajuan kredit Amanah: <br/>1) Pegawai tetap suatu instansi pemerintah/swasta minimal telah bekerja selama 2 tahun <br/>2) Melampirkan kelengkapan: Fotokopi KTP (suami/isteri), Fotokopi Kartu Keluarga, Fotokopi SK pengangkatan sebagai pegawai / karyawan tetap, Rekomendasi atasan langsung, Slip gaji 2 bulan terakhir <br/>3) Mengisi dan menandatangani form aplikasi AMANAH <br/>4) Membayar uang muka yang disepakati Minimal 10 % untuk Motor dan Minimal 20 % untuk mobil <br/>5) Menandatangani akad AMANAH"
+  utter_tempat_amanah:
+    - text: "Pembayaran/pengajuan dapat dilakukan di seluruh outlet Pegadaian, Agen Pegadaian, dan melalui aplikasi Pegadaian Digital Service."
+  utter_dp_amanah:
+    - text: "Untuk DP pembiayaan mobil itu minimal 20% dari harga barang, sedangkan untuk motor itu minimal 10% dari harga barang"
+  utter_bunga_amanah:
+    - text: "Di Produk Amanah tidak menerapkan bunga, di Pegadaian Syariah hanya ada biaya pemeliharaan barang  (mu'nah). Biaya mu'nah untuk Amanah itu adalah 0,9% x harga kendaraan. Dibayarkan per bulan."
+  utter_bisa_amanah:
+    - text: "Ya bisa, produk bernama Pegadaian AMANAH yaitu pembiayaan pembelian motor/mobil baru/second."
+  utter_bisa_emas:
+    - text: "Ya di pegadaian ada banyak layanan yang menawarkan produk emas seperti Mulia, Emasku dan Tabungan Emas."
+  utter_biaya_admin_amanah:
+    - text: "Biaya admin Rp. 200.000 untuk Mobil dan Rp. 70.000 untuk Motor"
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 0
@@ -123,6 +155,10 @@ slots:
     type: text
   brand:
     type: text
+  good:
+    type: text
+  hina:
+    type: text
   kendaraan:
     type: categorical
     values:
@@ -130,11 +166,13 @@ slots:
     - motor
   produk:
     type: text
+  pujian:
+    type: text
   requested_slot:
     type: unfeaturized
-  tenor_amanah:
+  salam:
     type: text
-  tenor_emasku:
+  tenor_amanah:
     type: text
   tipe:
     type: text
@@ -148,12 +186,3 @@ slots:
     values:
     - gram
     - kilogram
-  salam:
-    type: text
-  pujian:
-    type: text
-  hina:
-    type: text  
-  good:
-    type: text
-  

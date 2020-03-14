@@ -1,11 +1,11 @@
-## intent:faq/cara_amanah
+## intent:cara_amanah
 - [bagaimana](tanya) [cara](cara) [nyicil](kredit) [motor](kendaraan)
 - [kredit](kredit) [mobil](kendaraan) [gimana](tanya) [caranya](cara)
 - [apa](tanya) [prosedur](cara) [untuk](untuk) [amanah](produk) [mobil](kendaraan)
 - [gimana](tanya:bagaimana) [cara](cara) [kredit](kredit) [mobil](kendaraan) di pegadaian
 - [gimana](tanya:bagaimana) [cara](cara) [kredit](kredit) [mobil](kendaraan) [amanah](produk)
 
-## intent:faq/tenor_amanah
+## intent:tenor_amanah
 - [berapa](tanya) [lama](durasi) [kredit](kredit) [motor](kendaraan)
 - [berapa](tanya) [minimal](batas) tenor [untuk](untuk) [cicil](kredit) [motor](kendaraan)
 - [maksimal](batas) tenor [untuk](untuk) [kredit](kredit) [mobil](kendaraan) [berapa](tanya) [lama](durasi)
@@ -14,31 +14,31 @@
 - [ngangsur](kredit) kendaraan bisa [sampai](batas) [berapa](tanya) [bulan](durasi)
 - [kredit](kredit) [mobil](kendaraan) [bisa](tanya) [sampai](batas) [berapa](tanya) [lama](durasi)
 
-## intent:faq/syarat_amanah
+## intent:syarat_amanah
 - [apa](tanya) saja [syarat](syarat) [untuk](untuk) pengajuan [kredit](kredit) kendaraan
 - [bawa](syarat) [apa](tanya) aja [buat](untuk) [nyicil](kredit) [mobil](kendaraan)
 - [buat](untuk) [cicil](kredit) [motor](kendaraan) [perlu](syarat) [apa](tanya) aja
 - [apa](tanya) [syarat](syarat) [buat](untuk) [kredit](kredit) [amanah](produk) [motor](kendaraan)
 
-## intent:faq/tempat_amanah
+## intent:tempat_amanah
 - [di mana](tanya) [bisa](tanya) mengajukan [kredit](kredit) [motor](kendaraan)
 - [buat](untuk) [kredit](kredit) [mobil](kendaraan) [dimana](tanya)
 - [di mana](tanya) [bisa](tanya) pengajuan [kredit](kredit) [amanah](produk)
 
-## intent:faq/dp_amanah
+## intent:dp_amanah
 - [kredit](kredit) [mobil](kendaraan) [uang mukanya](dp) [berapa](tanya)
 - [uang muka](dp) [nyicil](kredit) [motor](kendaraan) [berapa](tanya)
 - [berapa](tanya) [dp](dp) [buat](untuk) [cicil](kredit) kendaraan
 - [berapa](tanya) [dp](dp) [buat](untuk) [amanah](produk) kendaraan
 - [kalau](untuk) [kredit](kredit) [motor](kendaraan) [berapa](tanya) [uang mukanya](dp)
 
-## intent:faq/bunga_amanah
+## intent:bunga_amanah
 - [berapa](tanya) [bunga](bunga) [untuk](untuk) [nyicil](kredit) kendaraan
 - [buat](untuk) [kredit](kredit) [mobil](kendaraan) [sewa modal](bunga) [berapa](tanya)
 - [kalau](untuk) [cicil](kredit) [motor](kendaraan) [bunga](bunga) [berapa](tanya)
 - [berapa](tanya) [bunga](bunga) [kalau](untuk) [cicil](kredit:kredit) [mobil](kendaraan)
 
-## intent:faq/bisa_amanah
+## intent:bisa_amanah
 - [apa](tanya) [bisa](tanya) [beli](transaksi) [motor](kendaraan) di pegadaian
 - [bisa](tanya) [kredit](kredit) kendaraan di pegadaian
 - [bisa](tanya) gak [cicil](kredit) [mobil](kendaraan) di pegadaian
@@ -61,12 +61,12 @@
 - mau [tanya](tanya) tentang [mulia kolektif](produk)
 - [apa](tanya) itu [rahn bisnis](produk)
 
-## intent:faq/bisa_emas
+## intent:bisa_emas
 - [apa](tanya) [bisa](tanya) [beli](transaksi) [emas](produk) di pegadaian
 - di pegadaian [ada](tanya) [jual](transaksi) [emas](produk) gak
 - di pegadaian [bisa](tanya) [beli](transaksi) [emas](produk) gak
 
-## intent:faq/biaya_admin_amanah
+## intent:biaya_admin_amanah
 - [berapa](tanya) [biaya admin](biaya_admin) [buat](untuk) [kredit](kredit) [mobil](kendaraan)
 - [cicil](kredit) [motor](kendaraan) [ada](tanya) [biaya admin](biaya_admin) gak
 - [biaya admin](biaya_admin) [untuk](untuk) [amanah](produk) [berapa](tanya)
@@ -114,16 +114,9 @@
 - [ta- 12](tenor_amanah)
 - [ta- 24](tenor_amanah)
 - [ta- 60](tenor_amanah)
-- [te- 1](tenor_emasku)
-- [te- 3](tenor_emasku)
-- [te- 8](tenor_emasku)
 - [b- 1](berat_emasku)
 - [b- 5](berat_emasku)
 - [b- 25](berat_emasku)
-- [te- 15](tenor_emasku)
-- [te- 10](tenor_emasku)
-- [te- 20](tenor_emasku)
-- [te- 7](tenor_emasku)
 - [5000000](uang_muka)
 - [100000000](uang_muka)
 - [ta- 100](tenor_amanah)
@@ -133,7 +126,6 @@
 - [ta- 15](tenor_amanah)
 - [30000000](uang_muka)
 - [50000000](uang_muka)
-- [ta- 60](tenor_amanah)
 - brand [toyota](brand)
 - brand [honda](brand)
 - brand [daihatsu](brand)
@@ -154,6 +146,7 @@
 - tipe [scoopy](tipe)
 - tipe [supra](tipe)
 - tipe [vario](tipe)
+- [b- 1](berat_emasku)
 
 ## intent:simulasi_emasku
 - [berapa](tanya) [angsuran](angsuran) [bulanan](bulan) [emasku](produk) [1](berat_emasku) [gram](unit)
@@ -163,6 +156,7 @@
 - [berapa](tanya) [setoran](angsuran:angsuran) [per bulan](bulan:bulanan) [emasku](produk) [untuk](untuk) [10](berat) [gram](unit)
 - [berapa](tanya) [setoran](angsuran:angsuran) [per bulan](bulan:bulanan) [emasku](produk) [untuk](untuk) [10](berat_emasku) [gram](unit)
 - mau [simulasi](simulasi) [emasku](produk) [7](berat_emasku) [gram](unit) dong
+- [berapa](tanya) [angsuran](angsuran) [per bulan](bulan:bulanan) [buat](untuk) [emasku](produk)
 
 ## intent:chitchat/salam
 - selamat [pagi](salam) [gea](gea)
@@ -298,14 +292,15 @@
 - berkas
 - berkasnya
 
+## synonym:halo
+- hai
+- hey
+
 ## regex:berat_emasku
 - ^b-
 
 ## regex:tenor_amanah
 - ^ta-
-
-## regex:tenor_emasku
-- ^te-
 
 ## lookup:kendaraan
 - mobil
